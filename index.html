@@ -2,62 +2,77 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Porfolio </title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Porfolio</title>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-
-
-
-  <img id="logo" src="/assets/fotografia.png" alt="Fotografia">
-
+  <img id="logo" src="/assets/fotografia.png" alt="Fotografia" />
 
   <div class="header">
-    <img src="/assets/photo_cracha.jpg" alt="Foto de Lucas Alves">
+    <img src="/assets/photo_cracha.jpg" alt="Foto de Lucas Alves" />
     <div class="info">
       <h2>Sobre</h2>
-      <p>Lucas Alves é um desenvolvedor estagiário, atuando com Drupal e PHP, na empresa CI&T.
-        Aluno do quarto período de Análise e Desenvolvimento no Centro Universitário Newton Paiva.
-        Possui experiência profissional diária com metódos ágeis como o Scrum e o Kanban.
-        Conhecimento e experiência com o sistema de versionamento GIT.
-        Algumas de minhas qualidades são: Trabalho em equipe, comunicação, facilidade na resolução de problemas. </p>
+      <p>
+        Lucas Alves é um desenvolvedor estagiário, atuando com Drupal e PHP, na empresa CI&T. Aluno do quarto período de
+        Análise e Desenvolvimento no Centro Universitário Newton Paiva. Possui experiência profissional diária com
+        metódos ágeis como o Scrum e o Kanban. Conhecimento e experiência com o sistema de versionamento GIT. Algumas de
+        minhas qualidades são: Trabalho em equipe, comunicação, facilidade na resolução de problemas.
+      </p>
     </div>
 
     <div class="info-pessoais">
       <strong>Idade:</strong>
-      20 <br>
+      20 <br />
       <strong>Endereço:</strong>
-      Rua Campos Sales, 57 <br>
+      Rua Campos Sales, 57 <br />
       <strong>e-mail:</strong>
-      lucashas27@gmail.com <br>
+      lucashas27@gmail.com <br />
       <strong>Telefone:</strong>
       (31) 97502-9494
     </div>
   </div>
 
+  <section class="meio">
+    <div class="meus-trabalhos">
+      <span>Meus Trabalhos</span>
+    </div>
 
-
-
-
-
-
-
+    <div class="container-meio">
+      <div class="controle-acad">
+        <img src="./assets/gym.png" alt="Academia" class="gym" />
+        <strong>controle de academia</strong>
+        </div>
+        
+        <div class="controle-acad-info">
+          <span>
+            Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
+            Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
+          </span>
+      </div>
+      <div class="ecoleta">
+        <img src="./assets/recicle.png" alt="Ecoleta" class="coleta-img" />
+        <strong>ecoleta</strong>
+        <div class="ecoleta-info">
+          <span>Ecoleta é um marketplace fictício feito durante a Next Level Week para localizar e registrar pontos de
+            coleta de lixo doméstico como pilhas, óleo, entre outros.</span>
+        </div>
+      </div>
+    </div>
+    <!-- container meio -->
+  </section>
 
   <!-- Inserção do Google Recaptcha -->
 
   <form action="?" method="POST">
     <div class="g-recaptcha" data-sitekey="6LfDEZsaAAAAAHKRDm4uIxKAo9qisXY1lsWC0HBi"></div>
     <br />
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" />
   </form>
-
-
-
 </body>
 
 </html>
