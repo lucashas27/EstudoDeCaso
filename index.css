@@ -17,8 +17,10 @@ img {
 
 .header {
     display: flex;
+    flex-direction: row;
     padding-left: 40px;
     margin-top: 50px;
+
     
 }
 
@@ -27,13 +29,14 @@ img {
     height: 28vh;
     border-radius: 20vh;
     margin-right: 7vw;
-    margin-top: 30px;
-    align-items: left;
+    margin-top: 20px;
+
 }
 
 .info {
     width: 40vw;
     margin-right: 3vw;
+    flex-grow: 1;
 }
 
 .info h2 {
@@ -45,9 +48,9 @@ img {
     display: inline;
     position: relative;
     line-height: 5vh;
-    margin-top: 5vh;
-    margin-left: 2vw;
-    align-items: right;
+    margin-top: 6.2vh;
+    /* margin-left: 2vw; */
+    /* align-items: right; */
 }
 
 .info-pessoais h1 {
@@ -56,4 +59,41 @@ img {
 
 .info-pessoais strong {
     color: #61c3f5;
+}
+
+
+.meus-trabalhos {    
+margin-top: 10vh;
+}
+
+
+.meus-trabalhos span {
+    font-size: 32px;
+    margin-left: 2.5vw;
+}
+
+.gym {
+    width: 5vw
+}
+
+
+.container-meio {
+margin-top: 3vw;
+display: flex;
+flex-direction: column;
+margin-left: 2.5vw;
+
+
+}
+
+
+
+.coleta-img, .github-img, .foodfy-img {
+    width: 5vw;
+    
+    
+}
+
+.ecoleta-info {
+    border-top: -20px
 }
