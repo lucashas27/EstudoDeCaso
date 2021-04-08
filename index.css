@@ -1,99 +1,157 @@
 html,
 body {
-    height: 100%;
-    font-size: 16px;
+	height: 100%;
+	font-size: 16px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
 
 img {
-    width: 100%;
-    height: 40%;
+	width: 100%;
+	height: 40%;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    padding-left: 40px;
-    margin-top: 50px;
-
-    
+	display: flex;
+	flex-direction: row;
+	padding-left: 40px;
+	margin-top: 50px;
 }
 
 .header img {
-    width: 14vw;
-    height: 28vh;
-    border-radius: 20vh;
-    margin-right: 7vw;
-    margin-top: 20px;
-
+	width: 14vw;
+	height: 28vh;
+	border-radius: 20vh;
+	margin-right: 7vw;
+	margin-top: 20px;
 }
 
 .info {
-    width: 40vw;
-    margin-right: 3vw;
-    flex-grow: 1;
+	width: 40vw;
+	margin-right: 3vw;
+	flex-grow: 1;
 }
 
 .info h2 {
-    margin-bottom: 5vh;
-    font-size: 32px;
+	margin-bottom: 5vh;
+	font-size: 32px;
 }
 
 .info-pessoais {
-    display: inline;
-    position: relative;
-    line-height: 5vh;
-    margin-top: 6.2vh;
-    /* margin-left: 2vw; */
-    /* align-items: right; */
+	display: inline;
+	position: relative;
+	line-height: 5vh;
+	margin-top: 6.2vh;
 }
 
 .info-pessoais h1 {
-    font-size: 21px;
+	font-size: 21px;
 }
 
 .info-pessoais strong {
-    color: #61c3f5;
+	color: #61c3f5;
 }
 
-
-.meus-trabalhos {    
-margin-top: 10vh;
-}
-
-
-.meus-trabalhos span {
-    font-size: 32px;
-    margin-left: 2.5vw;
+.meus-trabalhos {
+	margin-top: 18vh;
+	margin-left: 2.5vw;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .gym {
-    width: 5vw
+	width: 5vw
 }
-
 
 .container-meio {
-margin-top: 3vw;
-display: flex;
-flex-direction: column;
-margin-left: 2.5vw;
-
-
+	margin-top: 1vw;
+	display: flex;
+	flex-direction: column;
+	margin-left: 2.5vw;
 }
 
-
-
-.coleta-img, .github-img, .foodfy-img {
-    width: 5vw;
-    
-    
+.coleta-img,
+.github-img,
+.foodfy-img {
+	width: 5vw;
 }
 
-.ecoleta-info {
-    border-top: -20px
+.contato {
+	margin-left: 2.5vw;
+	margin-top: 8vh;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-container {
+	margin-left: 2.5vw;
+	margin-top: 6vh;
+	width: 60%;
+}
+
+.form-upper {
+	display: flex;
+	flex-direction: row;
+}
+
+.email {
+	width: 50%;
+	height: 6vh;
+	border-radius: 7px;
+	border: 0.5px solid gray;
+	text-indent: 10px;
+}
+
+.name {
+	height: 6vh;
+	border-radius: 7px;
+	width: 45%;
+	margin-left: 5%;
+	border: 0.5px solid gray;
+	text-indent: 10px;
+}
+
+.assunto {
+	height: 6vh;
+	border-radius: 7px;
+	width: 100%;
+	border: 0.5px solid gray;
+	text-indent: 10px;
+	margin-top: 3vh;
+}
+
+.mensagem {
+	height: 22vh;
+	border-radius: 7px;
+	width: 100%;
+	border: 0.5px solid gray;
+	text-indent: 10px;
+	margin-top: 3vh;
+}
+
+.form-submit {
+	margin-top: 4vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 1.5vw;
+}
+
+.submit {
+	height: 7vh;
+	width: 50%;
+	margin-left: 4.2vw;
+	border-radius: 10px;
+	border: 0.5px solid gray;
+}
+
+footer {
+    margin-top: 10vw;
+    text-align: center;
+    font-size: 10px;
 }
