@@ -7,12 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Porfolio</title>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
   <img id="logo" src="/assets/fotografia.png" alt="Fotografia" />
-
   <div class="header">
     <img src="/assets/photo_cracha.jpg" alt="Foto de Lucas Alves" />
     <div class="info">
@@ -24,12 +25,11 @@
         minhas qualidades são: Trabalho em equipe, comunicação, facilidade na resolução de problemas.
       </p>
     </div>
-
     <div class="info-pessoais">
       <strong>Idade:</strong>
       20 <br />
       <strong>Endereço:</strong>
-      Rua Campos Sales, 57 <br />
+      Rua Campos Sales, 45 <br />
       <strong>e-mail:</strong>
       lucashas27@gmail.com <br />
       <strong>Telefone:</strong>
@@ -37,64 +37,76 @@
     </div>
   </div>
 
-  <section class="meio">
-    <div class="meus-trabalhos">
-      <span>Meus Trabalhos</span>
+  <div class="meus-trabalhos">
+    <span> <strong> Meus Trabalhos </strong> </span>
+  </div>
+  <div class="container-meio">
+    <div class="controle-acad">
+      <img src="./assets/gym.png" alt="Academia" class="gym" />
+      <strong>Controle de academia</strong>
     </div>
-
-    <div class="container-meio">
-      <div class="controle-acad">
-        <img src="./assets/gym.png" alt="Academia" class="gym" />
-        <strong>Controle de academia</strong>
-        </div>
-
-        <!-- <div class="controle-acad-info"> -->
-          <span>
-            Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
-            Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
-          </span>
-      <!-- </div> -->
-      <div class="ecoleta">
-        <img src="./assets/recicle.png" alt="Ecoleta" class="coleta-img" />
-        <strong>E-Coleta</strong>
-        <!-- <div class="ecoleta-info"> --></br>
-          <span>Ecoleta é um marketplace fictício feito durante a Next Level Week para localizar e registrar pontos de
-            coleta de lixo doméstico como pilhas, óleo, entre outros. Feito em JavaScript, HTML e CSS.</span>
-        <!-- </div> -->
+    <div class="controle-acad-info">
+      <span>
+        Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
+        Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
+      </span>
+    </div>
+    <div class="ecoleta">
+      <img src="./assets/recicle.png" alt="Ecoleta" class="coleta-img" />
+      <strong>E-Coleta</strong>
+      <div class="ecoleta-info">
+        <span>Ecoleta é um marketplace fictício feito durante a Next Level Week para localizar e registrar pontos de
+          coleta de lixo doméstico como pilhas, óleo, entre outros. Feito em JavaScript, HTML e CSS.</span>
       </div>
-  
-      <div class="githubExplorer">
-        <img src="./assets/github.png" alt="Github" class="github-img">
-        <strong>githubExplorer</strong>
-        <!-- <div class="github-info"> --></br>
-        <span>Aplicação feita em React que lista, mostra os arquivos e o README de todos os repositórios que estão públicos de um determinado perfil
+    </div>
+    <div class="githubExplorer">
+      <img src="./assets/github.png" alt="Github" class="github-img">
+      <strong>githubExplorer</strong>
+      <div class="github-info">
+        <span>Aplicação feita em React que lista, mostra os arquivos e o README de todos os repositórios que estão
+          públicos de um determinado perfil
           da rede Github de escolha do usuário.
         </span>
-       <!-- </div> -->
       </div>
-      
-      <div class="foodfy">
-        <img src="./assets/food.png" alt="Foodfy" class="foodfy-img">
-        <strong>Foodfy</strong></br>
-        <!-- <div class="foodfy-info"> -->
-          <span>Foodfy é um projeto realizado durante o Bootcamp da Rocketseat. 
-          Um projeto voltado à culinária (um site de receitas, com gerenciamento de usuários), 
-          baseado em tecnologias que fazem sentido juntas.</span>
-        <!-- </div> -->
-      </div>
-      
-  
     </div>
-    <!-- container meio -->
-  </section>
+    <div class="foodfy">
+      <img src="./assets/food.png" alt="Foodfy" class="foodfy-img">
+      <strong>Foodfy</strong>
+      <div class="foodfy-info">
+        <span>Foodfy é um projeto realizado durante o Bootcamp da Rocketseat.
+          Um projeto voltado à culinária (um site de receitas, com gerenciamento de usuários),
+          baseado em tecnologias que fazem sentido juntas.</span>
+      </div>
+    </div>
+  </div>
 
-  <!-- Inserção do Google Recaptcha -->
 
+
+  <div class="contato">
+    <strong> Contato </strong>
+  </div>
   <form action="?" method="POST">
-    <div class="g-recaptcha" data-sitekey="6LfDEZsaAAAAAHKRDm4uIxKAo9qisXY1lsWC0HBi"></div>
-    <br />
-    <input type="submit" value="Submit" />
+    <div class="form-container">
+      <div class="form-upper">
+        <input type="email" name="email" placeholder="Endereço de email" class="email" />
+        <input type="text" name="name" placeholder="Nome completo" class="name" />
+      </div>
+      <input type="text" name="assunto" placeholder="Assunto" class="assunto" />
+      <input type="text" name="mensagem" placeholder="Mensagem" class="mensagem">
+      <div class="form-submit">
+        <!-- Inserção do Google Recaptcha -->
+        <div class="g-recaptcha" data-sitekey="6LfDEZsaAAAAAHKRDm4uIxKAo9qisXY1lsWC0HBi"></div>
+        <br />
+        <input type="submit" value="Enviar Mensagem" class="submit" />
+      </div>
+    </div>
   </form>
+
+  <footer>
+    <p>
+      Centro Universitário Newton Paiva. Trabalho de Programação Web de Lucas Henrique Alves Santos (RA: 12106191)
+    </p>
+  </footer>
 </body>
 
 </html>
