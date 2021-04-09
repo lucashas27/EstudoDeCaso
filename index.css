@@ -64,26 +64,47 @@ img {
 	font-family: 'Roboto', sans-serif;
 }
 
-.gym {
-	width: 5vw
-}
-
 .container-meio {
-	margin-top: 1vw;
-	display: flex;
-	flex-direction: column;
-	margin-left: 2.5vw;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
-.coleta-img,
-.github-img,
-.foodfy-img {
-	width: 5vw;
+.foodfy-info,
+.github-info,
+.ecoleta-info,
+.controle-acad-info
+{
+	display: flex;
+	justify-content: baseline;
+	margin-top: 2vh;
+	margin-left: 2vw
+} 
+
+.foodfy-strong,
+.github-strong,
+.ecoleta-strong,
+.controle-strong {
+	display: flex;
+	justify-content: baseline;
+	margin-top: 2vh;
+	margin-left: 2vw
 }
+
+.controle-strong {
+	margin-top: 8vh
+}
+
+.images {
+	width: 8vw;
+	margin-left: 2.5vw;
+	margin-top: 6vh;
+	margin-left: 2vw
+  }
 
 .contato {
 	margin-left: 2.5vw;
-	margin-top: 8vh;
+	margin-top: 12vh;
 	font-size: 36px;
 	font-family: 'Roboto', sans-serif;
 }
@@ -91,7 +112,8 @@ img {
 .form-container {
 	margin-left: 2.5vw;
 	margin-top: 6vh;
-	width: 60%;
+		width: 60%;
+
 }
 
 .form-upper {
@@ -155,3 +177,5 @@ footer {
     text-align: center;
     font-size: 10px;
 }
+
+
