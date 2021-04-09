@@ -1,258 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Porfolio</title>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css" />
-</head>
 
-<body>
-  <img id="logo" src="/assets/fotografia.png" alt="Fotografia" />
-  <div class="header">
-    <img src="/assets/photo_cracha.jpg" alt="Foto de Lucas Alves" />
-    <div class="info">
-      <h2>Sobre</h2>
-      <p>
-        Lucas Alves é um desenvolvedor estagiário, atuando com Drupal e PHP, na empresa CI&T. Aluno do quarto período de
-        Análise e Desenvolvimento no Centro Universitário Newton Paiva. Possui experiência profissional diária com
-        metódos ágeis como o Scrum e o Kanban. Conhecimento e experiência com o sistema de versionamento GIT. Algumas de
-        minhas qualidades são: Trabalho em equipe, comunicação, facilidade na resolução de problemas.
-      </p>
+  <body>
+    <div class="header-wrapper">
+    <img id="logo" src="/assets/fotografia.png" alt="Fotografia" />
     </div>
-    <div class="info-pessoais">
-      <strong>Idade:</strong>
-      20 <br />
-      <strong>Endereço:</strong>
-      Rua Campos Sales, 45 <br />
-      <strong>e-mail:</strong>
-      lucashas27@gmail.com <br />
-      <strong>Telefone:</strong>
-      (31) 97502-9494
+    <div class="header">
+      <img src="/assets/photo_cracha.jpg" alt="Foto de Lucas Alves" />
+      <div class="info">
+        <h2>Sobre</h2>
+        <p>
+          Lucas Alves é um desenvolvedor estagiário, atuando com Drupal e PHP, na empresa CI&T. Aluno do quarto período de
+          Análise e Desenvolvimento no Centro Universitário Newton Paiva. Possui experiência profissional diária com
+          metódos ágeis como o Scrum e o Kanban. Conhecimento e experiência com o sistema de versionamento GIT. Algumas de
+          minhas qualidades são: Trabalho em equipe, comunicação, facilidade na resolução de problemas.
+        </p>
+
+      </div>
+      <div class="info-pessoais">
+        <strong>Idade:</strong>
+        20 <br />
+        <strong>Endereço:</strong>
+        Rua Campos Sales, 45 <br />
+        <strong>e-mail:</strong>
+        lucashas27@gmail.com <br />
+        <strong>Telefone:</strong>
+        (31) 97502-9494
+      </div>
     </div>
-  </div>
 
-  <div class="meus-trabalhos">
-    <span> <strong> Meus Trabalhos </strong> </span>
-  </div>
-
-
-  <div class="container-meio">
-
-
-    <div class="images">
-
-      <div class="controle-acad-foto">
-        <img src="./assets/gym.png" alt="Academia" class="gym" />
-      </div>
-
-      <div class="ecoleta-foto">
-        <img src="./assets/recicle.png" alt="Ecoleta" class="coleta-img" />
-      </div>
-
-      <div class="githubExplorer-foto">
-        <img src="./assets/github.png" alt="Github" class="github-img">
-      </div>
-
-      <div class="foodfy-foto">
-        <img src="./assets/food.png" alt="Foodfy" class="foodfy-img">
-      </div>
-
+    <div class="meus-trabalhos">
+      <span> <strong> Meus Trabalhos </strong> </span>
     </div>
- <div class="container-info">
 
-      <div class="controle-strong">
-        <strong>Controle de academia</strong>
+    <div class="wrapper">
+      <div class="img-wrapper">
+        <img src="./assets/food.png" alt="">
       </div>
-
-      <div class="controle-acad-info">
-        <span>
-          Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
-          Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
-        </span>
-      </div>
-
-      <div class="ecoleta-strong">
-        <strong>E-Coleta</strong>
-      </div>
-      <div class="ecoleta-info">
-
-        <span>Ecoleta é um marketplace fictício feito durante a Next Level Week para localizar e registrar pontos de
-          coleta de lixo doméstico como pilhas, óleo, entre outros. Feito em JavaScript, HTML e CSS.</span>
-      </div>
-
-      <div class="github-strong">
-        <strong>githubExplorer</strong>
-      </div>
-      <div class="github-info">
-
-        <span>Aplicação feita em React que lista, mostra os arquivos e o README de todos os repositórios que estão
-          públicos de um determinado perfil
-          da rede Github de escolha do usuário.
-        </span>
-      </div>
-
-      <div class="foodfy-strong">
+      <div class="text">
         <strong>Foodfy</strong>
-      </div>
-
-      <div class="foodfy-info">
-        <span>Foodfy é um projeto realizado durante o Bootcamp da Rocketseat.
-          Um projeto voltado à culinária (um site de receitas, com gerenciamento de usuários),
-          baseado em tecnologias que fazem sentido juntas.</span>
+        <br>
+        Foodfy é um projeto realizado durante o Bootcamp da Rocketseat.
+        Um projeto voltado à culinária (um site de receitas, com gerenciamento de usuários),
+        baseado em tecnologias que fazem sentido juntas.
       </div>
     </div>
-  </div>
-
-<div class="wrapper">
-
-  <div class="img-wrapper">
-
-      <img src="./assets/food.png" alt="">
-
-  </div>
-
-
-
-<div class="text">
-  <strong>Controle de academia</strong>
-  <br>
-
-          Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
-          Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
-  
-  </div>
-
-</div>
-
-
-
-
-<div class="wrapper">
-
-  <div class="img-wrapper">
-
-      <img src="./assets/food.png" alt="">
-
-  </div>
-
-
-
-<div class="text">
-  <strong>Controle de academia</strong>
-  <br>
-
-          Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
-          Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
-  
-  </div>
-
-</div>
-
-
-
-
-
-
-
-<div class="wrapper">
-
-  <div class="img-wrapper">
-
-      <img src="./assets/food.png" alt="">
-
-  </div>
-
-
-
-<div class="text">
-  <strong>Controle de academia</strong>
-  <br>
-
-          Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
-          Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
-  
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-<div class="wrapper">
-
-  <div class="img-wrapper">
-
-      <img src="./assets/food.png" alt="">
-
-  </div>
-
-
-
-<div class="text">
-  <strong>Controle de academia</strong>
-  <br>
-
-          Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
-          Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
-  
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-  <div class="contato">
-    <strong> Contato </strong>
-  </div>
-  <form action="?" method="POST">
-    <div class="form-container">
-      <div class="form-upper">
-        <input type="email" name="email" placeholder="Endereço de email" class="email" />
-        <input type="text" name="name" placeholder="Nome completo" class="name" />
+    <div class="wrapper">
+      <div class="img-wrapper">
+        <img src="./assets/github.png" alt="">
       </div>
-      <input type="text" name="assunto" placeholder="Assunto" class="assunto" />
-      <input type="text" name="mensagem" placeholder="Mensagem" class="mensagem">
-      <div class="form-submit">
-        <!-- Inserção do Google Recaptcha -->
-        <div class="g-recaptcha" data-sitekey="6LfDEZsaAAAAAHKRDm4uIxKAo9qisXY1lsWC0HBi"></div>
-        <br />
-        <input type="submit" value="Enviar Mensagem" class="submit" />
+      <div class="text">
+        <strong>githubExplorer</strong>
+        <br>
+        Aplicação feita em React que lista, mostra os arquivos e o README de todos os repositórios que estão
+        públicos de um determinado perfil
+        da rede Github de escolha do usuário.
       </div>
     </div>
-  </form>
 
-  <footer>
-    <p>
-      Centro Universitário Newton Paiva. Trabalho de Programação Web de Lucas Henrique Alves Santos (RA: 12106191)
-    </p>
-  </footer>
-</body>
+    <div class="wrapper">
+      <div class="img-wrapper">
+        <img src="./assets/recicle.png" alt="">
+      </div>
+      <div class="text">
+        <strong>E-Coleta</strong>
+        <br>
+        Ecoleta é um marketplace fictício feito durante a Next Level Week para localizar e registrar pontos de
+        coleta de lixo doméstico como pilhas, óleo, entre outros. Feito em JavaScript, HTML e CSS.
+      </div>
+    </div>
 
+    <div class="wrapper">
+      <div class="img-wrapper">
+        <img src="./assets/gym.png" alt="">
+      </div>
+      <div class="text">
+        <strong>Controle de academia</strong>
+        <br>
+        Sistema web de controle de membros e instrutores de uma academia, com um CRUD completo, feito durante o
+        Bootcamp Launchbase da RocketSeat. A stack utilizada foi: Javascript, Node.JS, Express, Nunjucks.
+      </div>
+    </div>
+
+    <div class="contato">
+      <strong> Contato </strong>
+    </div>
+    <form action="?" method="POST">
+      <div class="form-container">
+        <div class="form-upper">
+          <input type="email" name="email" placeholder="Endereço de email" class="email" />
+          <input type="text" name="name" placeholder="Nome completo" class="name" />
+        </div>
+        <input type="text" name="assunto" placeholder="Assunto" class="assunto" />
+        <input type="text" name="mensagem" placeholder="Mensagem" class="mensagem">
+        <div class="form-submit">
+          <!-- Inserção do Google Recaptcha -->
+          <div class="g-recaptcha" data-sitekey="6LfDEZsaAAAAAHKRDm4uIxKAo9qisXY1lsWC0HBi"></div>
+          <br />
+          <input type="submit" value="Enviar Mensagem" class="submit" />
+        </div>
+      </div>
+    </form>
+    <footer>
+      <p>
+        Centro Universitário Newton Paiva. Trabalho de Programação Web de Lucas Henrique Alves Santos (RA: 12106191)
+      </p>
+    </footer>
+  </body>
 </html>
