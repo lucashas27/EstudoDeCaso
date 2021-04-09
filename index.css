@@ -179,3 +179,17 @@ footer {
 }
 
 
+.wrapper {
+display: flex;
+justify-content: start;
+
+}
+
+.img-wrapper {
+ width: 8vw;
+ height: 12vh;
+}
+
+.text {
+  width: 50%;
+}
